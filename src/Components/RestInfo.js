@@ -5,7 +5,6 @@ import { useDispatch, useSelector } from "react-redux";
 export default function RestInfo({restData}){
   
   
-
   const dispatch = useDispatch();
   const items = useSelector(state=>state.cartslice.items);
 
